@@ -1,7 +1,7 @@
 # v2v-dataset (w.i.p.)
 preprocessing code for creating a diverse video dataset
 
-currently in development more features and code polishing will be done in time.
+Currently in development more features and code polishing will be done in time.
 
 # how to use
 
