@@ -9,7 +9,7 @@ Currently in development more features and code polishing will be done in time.
 * Place TF-records into  "records"  directory in codebase
 
 ```bash
-python3 main.py --contents (t/true/1/nothing) --video (t/true/1/nothing)
+python3 main.py --contents (t/true/1/nothing | examine contents of tf records) --video (t/true/1/nothing | process videos) --num (int | specify number of videos to be processed)
 ```
 * Arguments
   * contents  will save all TF-record data to file
