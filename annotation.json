@@ -1,0 +1,929 @@
+{
+    "XQV7cpEEwZY": {
+        "anchor0": 48.0,
+        "anchor1": 189.866667,
+        "anchor2": 272.0,
+        "anchor3": 410.666667,
+        "record_id": "nZIc",
+        "length": 456.2,
+        "frame_rate": 30
+    },
+    "4S_XcihkOyY": {
+        "anchor0": 15.015,
+        "anchor1": 44.611233,
+        "anchor2": 89.355933,
+        "anchor3": 108.975533,
+        "record_id": "vApj",
+        "length": 147.914433,
+        "frame_rate": 29
+    },
+    "xnqY40YkIKI": {
+        "anchor0": 70.07,
+        "anchor1": 100.1,
+        "anchor2": 170.17,
+        "anchor3": 205.205,
+        "record_id": "Yvpj",
+        "length": 274.807867,
+        "frame_rate": 29
+    },
+    "e8qeJQAGWZo": {
+        "anchor0": 24.857123,
+        "anchor1": 115.678579,
+        "anchor2": 165.255113,
+        "anchor3": 253.391173,
+        "record_id": "8yIc",
+        "length": 282.035392,
+        "frame_rate": 14
+    },
+    "J88ZTqeO07o": {
+        "anchor0": 15.015,
+        "anchor1": 38.204833,
+        "anchor2": 75.075,
+        "anchor3": 100.1,
+        "record_id": "0yIc",
+        "length": 128.7286,
+        "frame_rate": 29
+    },
+    "X9qCkbW_w1s": {
+        "anchor0": 13.96,
+        "anchor1": 64.8,
+        "anchor2": 94.76,
+        "anchor3": 142.2,
+        "record_id": "SbIc",
+        "length": 155.6,
+        "frame_rate": 25
+    },
+    "jJIVtt-xogc": {
+        "anchor0": 30.196864,
+        "anchor1": 144.310978,
+        "anchor2": 206.006006,
+        "anchor3": 304.437771,
+        "record_id": "JhIc",
+        "length": 350.45045,
+        "frame_rate": 29
+    },
+    "cop-Pl8YJWQ": {
+        "anchor0": 25.333333,
+        "anchor1": 40.533333,
+        "anchor2": 76.0,
+        "anchor3": 106.4,
+        "record_id": "1Mpj",
+        "length": 128.966667,
+        "frame_rate": 30
+    },
+    "NUqCaBYfEIw": {
+        "anchor0": 94.527767,
+        "anchor1": 185.185,
+        "anchor2": 265.265,
+        "anchor3": 405.405,
+        "record_id": "xXIc",
+        "length": 446.879767,
+        "frame_rate": 29
+    },
+    "Sf-3Iik0Tnk": {
+        "anchor0": 21.354667,
+        "anchor1": 94.360933,
+        "anchor2": 138.805333,
+        "anchor3": 208.208,
+        "record_id": "RCpj",
+        "length": 234.701133,
+        "frame_rate": 29
+    },
+    "NS1pWbozdDo": {
+        "anchor0": 12.0,
+        "anchor1": 59.0,
+        "anchor2": 84.0,
+        "anchor3": 131.0,
+        "record_id": "FLIc",
+        "length": 143.0,
+        "frame_rate": 10
+    },
+    "g-y5CDwSjyY": {
+        "anchor0": 37.370667,
+        "anchor1": 160.16,
+        "anchor2": 240.24,
+        "anchor3": 347.013333,
+        "record_id": "oSpj",
+        "length": 388.721667,
+        "frame_rate": 29
+    },
+    "h43BW-q805w": {
+        "anchor0": 36.08,
+        "anchor1": 51.64,
+        "anchor2": 107.6,
+        "anchor3": 123.56,
+        "record_id": "Q4pj",
+        "length": 177.48,
+        "frame_rate": 25
+    },
+    "pfFiwswU2Q8": {
+        "anchor0": 15.36,
+        "anchor1": 61.44,
+        "anchor2": 107.52,
+        "anchor3": 133.12,
+        "record_id": "uOIc",
+        "length": 155.92,
+        "frame_rate": 25
+    },
+    "_ztPWgKiXRY": {
+        "anchor0": 42.52,
+        "anchor1": 149.72,
+        "anchor2": 285.8,
+        "anchor3": 442.8,
+        "record_id": "Bhpj",
+        "length": 486.36,
+        "frame_rate": 25
+    },
+    "UVbnxiHM8IU": {
+        "anchor0": 31.375,
+        "anchor1": 128.0,
+        "anchor2": 192.0,
+        "anchor3": 288.0,
+        "record_id": "JZpj",
+        "length": 322.833333,
+        "frame_rate": 23
+    },
+    "wNByorOJV9Y": {
+        "anchor0": 15.8,
+        "anchor1": 70.2,
+        "anchor2": 102.2,
+        "anchor3": 156.6,
+        "record_id": "d8pj",
+        "length": 174.8,
+        "frame_rate": 25
+    },
+    "1aZGtaiLSH4": {
+        "anchor0": 13.3,
+        "anchor1": 57.2,
+        "anchor2": 88.4,
+        "anchor3": 134.1,
+        "record_id": "wkpj",
+        "length": 150.966667,
+        "frame_rate": 30
+    },
+    "nklnBa-JFv4": {
+        "anchor0": 12.0,
+        "anchor1": 50.2,
+        "anchor2": 72.0,
+        "anchor3": 111.0,
+        "record_id": "ZsIc",
+        "length": 122.1,
+        "frame_rate": 30
+    },
+    "IttPmGFk3gQ": {
+        "anchor0": 35.84,
+        "anchor1": 163.84,
+        "anchor2": 232.4,
+        "anchor3": 363.52,
+        "record_id": "HKpj",
+        "length": 397.88,
+        "frame_rate": 25
+    },
+    "JoHzr_om_7A": {
+        "anchor0": 15.0,
+        "anchor1": 65.0,
+        "anchor2": 95.0,
+        "anchor3": 145.0,
+        "record_id": "osIc",
+        "length": 158.266667,
+        "frame_rate": 30
+    },
+    "zsUVu7p9sVk": {
+        "anchor0": 14.381033,
+        "anchor1": 58.925533,
+        "anchor2": 82.849433,
+        "anchor3": 124.124,
+        "record_id": "R5pj",
+        "length": 142.008533,
+        "frame_rate": 29
+    },
+    "w5W8049j0RQ": {
+        "anchor0": 14.0,
+        "anchor1": 68.0,
+        "anchor2": 98.0,
+        "anchor3": 152.0,
+        "record_id": "pJIc",
+        "length": 167.233333,
+        "frame_rate": 30
+    },
+    "4PDLXjrlQZ8": {
+        "anchor0": 21.2,
+        "anchor1": 86.4,
+        "anchor2": 129.2,
+        "anchor3": 199.4,
+        "record_id": "pBpj",
+        "length": 217.76,
+        "frame_rate": 25
+    },
+    "BnBIQOSvQKQ": {
+        "anchor0": 20.48,
+        "anchor1": 76.8,
+        "anchor2": 117.76,
+        "anchor3": 174.08,
+        "record_id": "Y4pj",
+        "length": 194.64,
+        "frame_rate": 25
+    },
+    "bfX1QG5l4kg": {
+        "anchor0": 26.693333,
+        "anchor1": 128.128,
+        "anchor2": 186.853333,
+        "anchor3": 288.288,
+        "record_id": "QjIc",
+        "length": 315.148167,
+        "frame_rate": 29
+    },
+    "6q5OL-l0DdM": {
+        "anchor0": 27.7,
+        "anchor1": 125.5,
+        "anchor2": 182.0,
+        "anchor3": 273.0,
+        "record_id": "ibpj",
+        "length": 304.6,
+        "frame_rate": 10
+    },
+    "_jw5Kv2qI3g": {
+        "anchor0": 23.066667,
+        "anchor1": 114.666667,
+        "anchor2": 162.066667,
+        "anchor3": 252.733333,
+        "record_id": "iQpj",
+        "length": 276.466667,
+        "frame_rate": 14
+    },
+    "oMeZYLHnSoU": {
+        "anchor0": 20.0,
+        "anchor1": 90.0,
+        "anchor2": 130.0,
+        "anchor3": 195.0,
+        "record_id": "fOIc",
+        "length": 218.066667,
+        "frame_rate": 30
+    },
+    "KB2HYpPdoP4": {
+        "anchor0": 14.180833,
+        "anchor1": 50.05,
+        "anchor2": 80.08,
+        "anchor3": 115.115,
+        "record_id": "tNIc",
+        "length": 128.761967,
+        "frame_rate": 29
+    },
+    "SXyJRSLfaPE": {
+        "anchor0": 19.5,
+        "anchor1": 95.0,
+        "anchor2": 134.0,
+        "anchor3": 209.5,
+        "record_id": "supj",
+        "length": 229.166667,
+        "frame_rate": 30
+    },
+    "WjpHlVOWKUc": {
+        "anchor0": 14.88,
+        "anchor1": 60.36,
+        "anchor2": 87.04,
+        "anchor3": 133.12,
+        "record_id": "8SIc",
+        "length": 146.12,
+        "frame_rate": 25
+    },
+    "XfCeJIT_AbE": {
+        "anchor0": 24.208333,
+        "anchor1": 100.458333,
+        "anchor2": 144.416667,
+        "anchor3": 220.166667,
+        "record_id": "UhIc",
+        "length": 241.625,
+        "frame_rate": 23
+    },
+    "aja-M3ccwB0": {
+        "anchor0": 12.0,
+        "anchor1": 53.28,
+        "anchor2": 79.12,
+        "anchor3": 121.76,
+        "record_id": "g0Ic",
+        "length": 132.96,
+        "frame_rate": 25
+    },
+    "n1fc0LSoEKw": {
+        "anchor0": 11.177833,
+        "anchor1": 54.4544,
+        "anchor2": 77.110367,
+        "anchor3": 119.853067,
+        "record_id": "sipj",
+        "length": 130.9308,
+        "frame_rate": 29
+    },
+    "aeORUoErmc0": {
+        "anchor0": 37.333333,
+        "anchor1": 181.333333,
+        "anchor2": 256.0,
+        "anchor3": 399.166667,
+        "record_id": "Qqpj",
+        "length": 436.066667,
+        "frame_rate": 30
+    },
+    "2fkqE_Lvhw4": {
+        "anchor0": 21.354667,
+        "anchor1": 90.757333,
+        "anchor2": 133.341542,
+        "anchor3": 204.95475,
+        "record_id": "Hepj",
+        "length": 225.47525,
+        "frame_rate": 23
+    },
+    "zJE-4s6ZgCQ": {
+        "anchor0": 32.0,
+        "anchor1": 156.433333,
+        "anchor2": 224.0,
+        "anchor3": 346.666667,
+        "record_id": "Q5Ic",
+        "length": 382.8,
+        "frame_rate": 30
+    },
+    "o0QRuWydJjw": {
+        "anchor0": 36.4,
+        "anchor1": 176.16,
+        "anchor2": 249.6,
+        "anchor3": 390.0,
+        "record_id": "Klpj",
+        "length": 425.52,
+        "frame_rate": 25
+    },
+    "rj6M-VepPB0": {
+        "anchor0": 37.4,
+        "anchor1": 167.4,
+        "anchor2": 242.6,
+        "anchor3": 378.0,
+        "record_id": "oPIc",
+        "length": 412.6,
+        "frame_rate": 25
+    },
+    "q-sIRFT7gAw": {
+        "anchor0": 20.058169,
+        "anchor1": 95.744325,
+        "anchor2": 138.535085,
+        "anchor3": 213.418915,
+        "record_id": "Qppj",
+        "length": 235.783773,
+        "frame_rate": 29
+    },
+    "XNzMSOWOAkw": {
+        "anchor0": 21.32,
+        "anchor1": 102.48,
+        "anchor2": 144.64,
+        "anchor3": 225.0,
+        "record_id": "93pj",
+        "length": 246.56,
+        "frame_rate": 25
+    },
+    "kiosYGZvhSY": {
+        "anchor0": 16.0,
+        "anchor1": 53.333333,
+        "anchor2": 85.333333,
+        "anchor3": 122.666667,
+        "record_id": "AiIc",
+        "length": 138.966667,
+        "frame_rate": 30
+    },
+    "1MYO8GaT_Ao": {
+        "anchor0": 10.24,
+        "anchor1": 46.08,
+        "anchor2": 71.68,
+        "anchor3": 107.52,
+        "record_id": "vkIc",
+        "length": 120.04,
+        "frame_rate": 25
+    },
+    "qopJZsCeT-w": {
+        "anchor0": 15.8,
+        "anchor1": 70.2,
+        "anchor2": 102.2,
+        "anchor3": 156.6,
+        "record_id": "fBpj",
+        "length": 173.64,
+        "frame_rate": 25
+    },
+    "bfl7_DGyLV0": {
+        "anchor0": 15.0,
+        "anchor1": 65.0,
+        "anchor2": 100.0,
+        "anchor3": 150.0,
+        "record_id": "5ZIc",
+        "length": 165.9,
+        "frame_rate": 30
+    },
+    "DT6CNu9xzKM": {
+        "anchor0": 29.301829,
+        "anchor1": 142.370845,
+        "anchor2": 200.040048,
+        "anchor3": 314.210386,
+        "record_id": "cNpj",
+        "length": 342.911494,
+        "frame_rate": 29
+    },
+    "plnB4D0A28U": {
+        "anchor0": 35.84,
+        "anchor1": 158.72,
+        "anchor2": 225.28,
+        "anchor3": 350.36,
+        "record_id": "kUpj",
+        "length": 382.96,
+        "frame_rate": 25
+    },
+    "Ur-Og_hg5_Q": {
+        "anchor0": 27.636364,
+        "anchor1": 132.242424,
+        "anchor2": 190.909091,
+        "anchor3": 297.69697,
+        "record_id": "POpj",
+        "length": 327.030303,
+        "frame_rate": 8
+    },
+    "AU_TlfLzrJc": {
+        "anchor0": 21.354667,
+        "anchor1": 102.535767,
+        "anchor2": 149.482667,
+        "anchor3": 225.892333,
+        "record_id": "a3Ic",
+        "length": 250.316733,
+        "frame_rate": 29
+    },
+    "3Q1Wq4J32gA": {
+        "anchor0": 13.780433,
+        "anchor1": 58.725333,
+        "anchor2": 85.418667,
+        "anchor3": 130.2301,
+        "record_id": "o7Ic",
+        "length": 142.208733,
+        "frame_rate": 29
+    },
+    "lvZlP8pvEGo": {
+        "anchor0": 42.709333,
+        "anchor1": 206.6064,
+        "anchor2": 292.025067,
+        "anchor3": 453.2528,
+        "record_id": "Ykpj",
+        "length": 498.865033,
+        "frame_rate": 29
+    },
+    "nJcX_ZGAMjs": {
+        "anchor0": 16.016,
+        "anchor1": 69.402667,
+        "anchor2": 106.773333,
+        "anchor3": 159.893067,
+        "record_id": "Wfpj",
+        "length": 176.409567,
+        "frame_rate": 29
+    },
+    "Efyb36ykuv8": {
+        "anchor0": 20.0,
+        "anchor1": 75.0,
+        "anchor2": 110.0,
+        "anchor3": 170.0,
+        "record_id": "VCIc",
+        "length": 188.333333,
+        "frame_rate": 30
+    },
+    "3c7rkjNY-ag": {
+        "anchor0": 13.046367,
+        "anchor1": 60.06,
+        "anchor2": 90.09,
+        "anchor3": 135.135,
+        "record_id": "rQIc",
+        "length": 150.116633,
+        "frame_rate": 29
+    },
+    "-vV060QWqxk": {
+        "anchor0": 32.0,
+        "anchor1": 148.0,
+        "anchor2": 212.0,
+        "anchor3": 328.0,
+        "record_id": "JnIc",
+        "length": 360.666667,
+        "frame_rate": 14
+    },
+    "AFM_Oma01Sc": {
+        "anchor0": 16.016,
+        "anchor1": 55.321933,
+        "anchor2": 80.08,
+        "anchor3": 122.255467,
+        "record_id": "gEIc",
+        "length": 136.136,
+        "frame_rate": 29
+    },
+    "cKIMiLg0RU0": {
+        "anchor0": 15.6,
+        "anchor1": 69.6,
+        "anchor2": 100.8,
+        "anchor3": 156.0,
+        "record_id": "jrpj",
+        "length": 171.72,
+        "frame_rate": 25
+    },
+    "Ln8OXXtUaVM": {
+        "anchor0": 18.551867,
+        "anchor1": 86.119367,
+        "anchor2": 130.13,
+        "anchor3": 195.195,
+        "record_id": "GYIc",
+        "length": 214.781233,
+        "frame_rate": 29
+    },
+    "I29DsYAiLYw": {
+        "anchor0": 12.041667,
+        "anchor1": 56.708333,
+        "anchor2": 85.0,
+        "anchor3": 125.0,
+        "record_id": "TAIc",
+        "length": 140.625,
+        "frame_rate": 23
+    },
+    "FjP4T_u_alE": {
+        "anchor0": 21.2,
+        "anchor1": 81.0,
+        "anchor2": 123.8,
+        "anchor3": 183.6,
+        "record_id": "JOIc",
+        "length": 205.24,
+        "frame_rate": 25
+    },
+    "UzcqAR6-s_Q": {
+        "anchor0": 32.0,
+        "anchor1": 134.366667,
+        "anchor2": 196.8,
+        "anchor3": 300.8,
+        "record_id": "HSpj",
+        "length": 328.3,
+        "frame_rate": 30
+    },
+    "CLj-_yHGChs": {
+        "anchor0": 37.333333,
+        "anchor1": 160.0,
+        "anchor2": 229.333333,
+        "anchor3": 352.0,
+        "record_id": "IEIc",
+        "length": 386.733333,
+        "frame_rate": 30
+    },
+    "cGOJhvBa_yU": {
+        "anchor0": 42.709333,
+        "anchor1": 192.192,
+        "anchor2": 277.610667,
+        "anchor3": 432.432,
+        "record_id": "IlIc",
+        "length": 473.406267,
+        "frame_rate": 29
+    },
+    "TXj5a2A79i0": {
+        "anchor0": 18.101622,
+        "anchor1": 90.09,
+        "anchor2": 130.13,
+        "anchor3": 195.195,
+        "record_id": "2Kpj",
+        "length": 217.175411,
+        "frame_rate": 23
+    },
+    "imGnjGJ7bAU": {
+        "anchor0": 32.0,
+        "anchor1": 145.8,
+        "anchor2": 204.8,
+        "anchor3": 318.6,
+        "record_id": "v2Ic",
+        "length": 349.96,
+        "frame_rate": 25
+    },
+    "7Yup0z4uU8w": {
+        "anchor0": 15.0,
+        "anchor1": 70.0,
+        "anchor2": 105.0,
+        "anchor3": 155.0,
+        "record_id": "I2pj",
+        "length": 174.208333,
+        "frame_rate": 23
+    },
+    "tTZc-3tG2RU": {
+        "anchor0": 14.0,
+        "anchor1": 64.0,
+        "anchor2": 92.0,
+        "anchor3": 141.0,
+        "record_id": "WkIc",
+        "length": 155.066667,
+        "frame_rate": 30
+    },
+    "_lbYKUVGouA": {
+        "anchor0": 16.016,
+        "anchor1": 58.725333,
+        "anchor2": 85.418667,
+        "anchor3": 128.128,
+        "record_id": "Bgpj",
+        "length": 143.776967,
+        "frame_rate": 29
+    },
+    "jRI-7Fp6lzI": {
+        "anchor0": 15.8,
+        "anchor1": 75.6,
+        "anchor2": 113.0,
+        "anchor3": 167.4,
+        "record_id": "Copj",
+        "length": 187.64,
+        "frame_rate": 25
+    },
+    "8g40C0kXGdI": {
+        "anchor0": 28.0,
+        "anchor1": 136.0,
+        "anchor2": 196.0,
+        "anchor3": 304.0,
+        "record_id": "Ajpj",
+        "length": 333.933333,
+        "frame_rate": 14
+    },
+    "mS1V3It-l60": {
+        "anchor0": 42.709333,
+        "anchor1": 202.869333,
+        "anchor2": 288.288,
+        "anchor3": 446.979867,
+        "record_id": "HzIc",
+        "length": 488.054233,
+        "frame_rate": 29
+    },
+    "IPVAL3MEY3o": {
+        "anchor0": 26.666667,
+        "anchor1": 132.0,
+        "anchor2": 186.666667,
+        "anchor3": 292.0,
+        "record_id": "jZpj",
+        "length": 319.533333,
+        "frame_rate": 30
+    },
+    "lm3vVpPv8RQ": {
+        "anchor0": 26.666667,
+        "anchor1": 123.8,
+        "anchor2": 175.5,
+        "anchor3": 272.0,
+        "record_id": "xlIc",
+        "length": 298.866667,
+        "frame_rate": 30
+    },
+    "peQfLWB8nyQ": {
+        "anchor0": 38.972267,
+        "anchor1": 185.7856,
+        "anchor2": 261.594667,
+        "anchor3": 408.541467,
+        "record_id": "0Rpj",
+        "length": 447.313533,
+        "frame_rate": 29
+    },
+    "C59X31zQNz0": {
+        "anchor0": 27.160467,
+        "anchor1": 113.480033,
+        "anchor2": 166.2661,
+        "anchor3": 254.187267,
+        "record_id": "B2Ic",
+        "length": 282.949333,
+        "frame_rate": 29
+    },
+    "m1DUmBmpZhU": {
+        "anchor0": 28.3283,
+        "anchor1": 138.805333,
+        "anchor2": 197.530667,
+        "anchor3": 304.570933,
+        "record_id": "OUpj",
+        "length": 333.5332,
+        "frame_rate": 29
+    },
+    "M--bLmUOu0o": {
+        "anchor0": 15.5155,
+        "anchor1": 76.543133,
+        "anchor2": 107.440667,
+        "anchor3": 168.535033,
+        "record_id": "xDpj",
+        "length": 184.117267,
+        "frame_rate": 29
+    },
+    "3eDeohUK1UU": {
+        "anchor0": 16.282933,
+        "anchor1": 66.066,
+        "anchor2": 98.098,
+        "anchor3": 150.15,
+        "record_id": "qVpj",
+        "length": 167.634133,
+        "frame_rate": 29
+    },
+    "fqNIp3Ngfyc": {
+        "anchor0": 30.72,
+        "anchor1": 138.24,
+        "anchor2": 194.56,
+        "anchor3": 302.08,
+        "record_id": "1wpj",
+        "length": 332.76,
+        "frame_rate": 25
+    },
+    "rP8ilYknMok": {
+        "anchor0": 27.4274,
+        "anchor1": 126.3262,
+        "anchor2": 180.18,
+        "anchor3": 280.28,
+        "record_id": "T7pj",
+        "length": 306.272633,
+        "frame_rate": 29
+    },
+    "AFQaPcRdE_M": {
+        "anchor0": 37.4,
+        "anchor1": 163.08,
+        "anchor2": 231.0,
+        "anchor3": 356.4,
+        "record_id": "54Ic",
+        "length": 394.08,
+        "frame_rate": 25
+    },
+    "mSgkHR3a--c": {
+        "anchor0": 29.666667,
+        "anchor1": 139.633333,
+        "anchor2": 200.933333,
+        "anchor3": 309.266667,
+        "record_id": "jtpj",
+        "length": 343.766667,
+        "frame_rate": 30
+    },
+    "gf9O2KFOuXM": {
+        "anchor0": 17.08,
+        "anchor1": 66.4,
+        "anchor2": 101.64,
+        "anchor3": 154.48,
+        "record_id": "OIpj",
+        "length": 172.76,
+        "frame_rate": 25
+    },
+    "vzYs3C13gXg": {
+        "anchor0": 20.854167,
+        "anchor1": 88.088,
+        "anchor2": 130.6305,
+        "anchor3": 196.8967,
+        "record_id": "4Xpj",
+        "length": 216.282733,
+        "frame_rate": 29
+    },
+    "Svbv-NuZd4w": {
+        "anchor0": 20.954267,
+        "anchor1": 76.4764,
+        "anchor2": 113.279833,
+        "anchor3": 171.638133,
+        "record_id": "UEIc",
+        "length": 188.0879,
+        "frame_rate": 29
+    },
+    "fG8zaJte-is": {
+        "anchor0": 42.709333,
+        "anchor1": 197.530667,
+        "anchor2": 277.610667,
+        "anchor3": 432.432,
+        "record_id": "qfIc",
+        "length": 475.408267,
+        "frame_rate": 29
+    },
+    "5Nn_zWxcEOo": {
+        "anchor0": 16.0,
+        "anchor1": 64.0,
+        "anchor2": 96.0,
+        "anchor3": 138.666667,
+        "record_id": "DDIc",
+        "length": 156.4,
+        "frame_rate": 14
+    },
+    "C4brngBq49g": {
+        "anchor0": 21.354667,
+        "anchor1": 96.096,
+        "anchor2": 138.805333,
+        "anchor3": 208.208,
+        "record_id": "hZIc",
+        "length": 231.164267,
+        "frame_rate": 29
+    },
+    "xd7j5oQj3nw": {
+        "anchor0": 12.28,
+        "anchor1": 56.44,
+        "anchor2": 79.92,
+        "anchor3": 123.28,
+        "record_id": "a7Ic",
+        "length": 136.36,
+        "frame_rate": 25
+    },
+    "NJABe_SuCFE": {
+        "anchor0": 20.48,
+        "anchor1": 92.16,
+        "anchor2": 138.24,
+        "anchor3": 209.92,
+        "record_id": "mUIc",
+        "length": 231.24,
+        "frame_rate": 25
+    },
+    "4qOHy8xLUnk": {
+        "anchor0": 37.370667,
+        "anchor1": 165.498667,
+        "anchor2": 239.005433,
+        "anchor3": 368.368,
+        "record_id": "Xwpj",
+        "length": 407.6072,
+        "frame_rate": 29
+    },
+    "K_kLmsPqIuY": {
+        "anchor0": 37.333333,
+        "anchor1": 181.333333,
+        "anchor2": 261.333333,
+        "anchor3": 400.0,
+        "record_id": "HBIc",
+        "length": 441.666667,
+        "frame_rate": 14
+    },
+    "5SZ9-j0c020": {
+        "anchor0": 32.0,
+        "anchor1": 154.72,
+        "anchor2": 220.56,
+        "anchor3": 343.32,
+        "record_id": "5ppj",
+        "length": 374.92,
+        "frame_rate": 25
+    },
+    "IgkFw-4xmYw": {
+        "anchor0": 24.266667,
+        "anchor1": 113.466667,
+        "anchor2": 164.733333,
+        "anchor3": 253.733333,
+        "record_id": "WLIc",
+        "length": 276.866667,
+        "frame_rate": 14
+    },
+    "uPLsj41unaQ": {
+        "anchor0": 40.96,
+        "anchor1": 194.56,
+        "anchor2": 281.6,
+        "anchor3": 435.2,
+        "record_id": "Hvpj",
+        "length": 475.88,
+        "frame_rate": 25
+    },
+    "gmS_Rnaawrg": {
+        "anchor0": 26.693333,
+        "anchor1": 117.450667,
+        "anchor2": 176.176,
+        "anchor3": 266.933333,
+        "record_id": "fJIc",
+        "length": 293.159533,
+        "frame_rate": 29
+    },
+    "txKL-Or7mx0": {
+        "anchor0": 25.6,
+        "anchor1": 114.36,
+        "anchor2": 168.96,
+        "anchor3": 256.0,
+        "record_id": "YKpj",
+        "length": 282.24,
+        "frame_rate": 25
+    },
+    "LQg7PWPJjXQ": {
+        "anchor0": 16.016,
+        "anchor1": 61.436375,
+        "anchor2": 88.922167,
+        "anchor3": 137.011875,
+        "record_id": "Hlpj",
+        "length": 151.025875,
+        "frame_rate": 23
+    },
+    "ImT493Nz_mI": {
+        "anchor0": 15.051467,
+        "anchor1": 65.3674,
+        "anchor2": 95.503878,
+        "anchor3": 145.8198,
+        "record_id": "a1pj",
+        "length": 163.251356,
+        "frame_rate": 29
+    },
+    "V3WmHSQnIlU": {
+        "anchor0": 43.2,
+        "anchor1": 199.12,
+        "anchor2": 279.36,
+        "anchor3": 437.4,
+        "record_id": "2pIc",
+        "length": 477.92,
+        "frame_rate": 25
+    },
+    "PSpwZYUTA6M": {
+        "anchor0": 20.48,
+        "anchor1": 81.92,
+        "anchor2": 122.88,
+        "anchor3": 184.32,
+        "record_id": "EDpj",
+        "length": 201.96,
+        "frame_rate": 25
+    },
+    "pGZ0vq6QBxc": {
+        "anchor0": 12.012,
+        "anchor1": 58.525133,
+        "anchor2": 83.349933,
+        "anchor3": 129.6295,
+        "record_id": "rbIc",
+        "length": 141.608133,
+        "frame_rate": 29
+    }
+}

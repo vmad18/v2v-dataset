@@ -12,7 +12,7 @@ def sim_score(im1, im2) -> float:
 
 def main() -> None:
 
-    path = "videoo0QRuWydJjw/"
+    path = ""
 
     total_score: float = 0.
     files = {}
