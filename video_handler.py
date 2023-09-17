@@ -10,6 +10,7 @@ import json
 
 from yt_dlp import YoutubeDL
 from utils.image_sim import percept_score, wlet_score
+import time
 
 
 class CurrPoint(object):
@@ -291,6 +292,8 @@ class VideoHandle:
 
         t_idx = 0
 
+        t_start = time.time()
+
         for anchor, chain in enumerate(frames):
 
             data[f"anchor{anchor}"] = chain.anchor.time_stamp
@@ -317,6 +320,10 @@ class VideoHandle:
         for runner in runners:
             runner.join()
 
+        t_end = time.time()
+
+        t_delta = t_end - t_start
+
         print("THREADS DONE")
         for anchor, chain in enumerate(frames):
             total_score: float = 0.
@@ -337,16 +344,18 @@ class VideoHandle:
 
         print("SIM CALCULATED")
 
-        if self.rec_id != None:
-            data["record_id"] = self.rec_id
-
         data["length"] = self.end_time
         data["frame_rate"] = floor(1. / self.dur_sec)
+
+        if self.rec_id != None:
+            data["record_id"] = self.rec_id
 
         if self.labels != None:
             data["labels"] = self.labels
 
         data["selected_cnt"] = frame_count.cntr
+
+        data["process_time"] = t_delta
 
         self.contents[self.video_id] = data
 
