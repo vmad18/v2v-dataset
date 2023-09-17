@@ -335,7 +335,7 @@ class VideoHandle:
 
             data[f"wscore{anchor}"] = total_score
 
-        print("SIM CALCULTED")
+        print("SIM CALCULATED")
 
         if self.rec_id != None:
             data["record_id"] = self.rec_id
@@ -399,7 +399,7 @@ class VideoHandle:
                 print()
 
 
-#  store meta data in json file
+#  store metadata in json file
 #  save file as offset from anchor
 
 
