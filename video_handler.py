@@ -320,9 +320,9 @@ class VideoHandle:
         for runner in runners:
             runner.join()
 
-        t_end = round(time.time(), 2)
+        t_end = time.time()
 
-        t_delta = t_end - t_start
+        t_delta = round(t_end - t_start, 2)
 
         print("THREADS DONE")
         for anchor, chain in enumerate(frames):
