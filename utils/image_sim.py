@@ -48,7 +48,7 @@ def main() -> None:
         frame_path = files[anchor]
 
         img = Image.open(path+frame_path)
-        score = w_score(anch, img)
+        score = wlet_score(anch, img)
         print(score)
         total_score += score/(6-1)
         # print("MSE: " + str(mse(img, anch)))

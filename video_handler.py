@@ -306,7 +306,7 @@ class VideoHandle:
 
             total_score /= len(chain.frame_paths)-1
 
-            data[f"anchor{anchor}_sim_score"] = total_score 
+            data[f"anchor{anchor}_wscore"] = total_score 
 
 
         if self.rec_id != None:
