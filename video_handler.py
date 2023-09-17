@@ -320,7 +320,7 @@ class VideoHandle:
         for runner in runners:
             runner.join()
 
-        t_end = time.time()
+        t_end = round(time.time(), 2)
 
         t_delta = t_end - t_start
 
