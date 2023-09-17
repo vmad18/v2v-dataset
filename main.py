@@ -4,13 +4,15 @@ import argparse
 import numpy as np
 from utils.tfrecord import ProcessRecords
 from video_handler import VideoHandle
-
+from time import sleep
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--video", help="t/true/1 saves YT urls in TF-records to file")
 parser.add_argument("--content", help="t/true/1 saves all TF-record contents to file")
-parser.add_argument("--num", type=1, default=1, help="specify the number of videos to process")
+parser.add_argument("--num", type=int, default=1, help="specify the number of videos to process")
+parser.add_argument("--read_file", default=0, help="t/true/1 read from saved video file or load them")
+
 accepts = ('1', 't', "true")
 
 def process_videos(args) -> None:
@@ -24,12 +26,19 @@ def process_videos(args) -> None:
 
     gen = np.random.default_rng(np.random.randint(100, 2000))
     splices = gen.integers(low=0, high=len(video_lines), size=args.num)
+    
+    print(f"Reading videos:\n {video_lines[splices]}")
 
     for video in video_lines[splices]:
-        yt_id, rec_id = video.split()
+        yt_id, rec_id, label_id = video.split()
+        yt_id = yt_id.replace('\"', "")
         
-        vh = VideoHandle(url=base_yt+yt_id, yt_id=yt_id, record_id=rec_id, annot_path="annotation.json")
-        vh.run()
+        try:
+            vh = VideoHandle(url=(base_yt+yt_id).strip('\"'), video_id=yt_id, record_id=rec_id, labels=label_id, annot_path="annotation.json")
+            vh.run()
+        except Exception as e:
+            print(e)
+            sleep(10)
 
 
 def main(records_path: str = "records/", to_file: str = "video_records.txt") -> None:
@@ -39,7 +48,12 @@ def main(records_path: str = "records/", to_file: str = "video_records.txt") -> 
     process = ProcessRecords(records_path, to_file)
     
     if args.video in accepts:
-        process.save_videos()
+        print("Parsing video urls")
+        print()
+        print()
+        if not (args.read_file in accepts):
+            process.save_videos()
+        print("Parsing videos...")
         process_videos(args)
 
     if args.content in accepts:

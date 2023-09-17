@@ -103,16 +103,17 @@ class ProcessRecords:
         for all_feats in self.all_videos_ds.values():
             for idx, video in enumerate(all_feats.values()):
                 
-                vid_id = codecs.decode(video['id'][0].bytes_list.value[0], 'utf-8')
-                
+                vid_id = codecs.decode(video['id'][0].bytes_list.value[0], 'utf-8')                
+                vid_labels = '-'.join([str(i) for i in video['labels'][0].int64_list.value])
+
                 link =  f"https://data.yt8m.org/2/j/i/{vid_id[0:2]}/{vid_id}.js"     
                 page = requests.get(link, verify=False)
                 
-                print(idx)
+                # print(idx)
                 
                 try:
                     yt_url = page.text[2:-2].split(',')[1]
-                    f.write(f"{yt_url} {vid_id}\n")
+                    f.write(f"{yt_url} {vid_id} {vid_labels}\n")
                 except:
                     continue 
 
