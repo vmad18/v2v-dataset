@@ -297,18 +297,22 @@ class VideoHandle:
         print("THREADS DONE")
         for anchor, chain in enumerate(frames):
             total_score: float = 0.
-            for idx, frame_path in enumerate(chain.frame_paths):
-                if idx == 0: continue
-                anch = Image.open(chain.frame_paths[0])
-                img = Image.open(frame_path)
 
-                total_score += wlet_score(anch, img)
+            try:
+                for idx, frame_path in enumerate(chain.frame_paths):
+                    if idx == 0: continue
+                    anch = Image.open(chain.frame_paths[0])
+                    img = Image.open(frame_path)
+
+                    total_score += percept_score(anch, img)
+            except:
+                continue
 
             total_score /= len(chain.frame_paths)-1
 
-            data[f"anchor{anchor}_wscore"] = total_score 
+            data[f"wscore{anchor}"] = total_score 
         
-        print("WAVELET DONE")
+        print("SIM CALCULTED")
 
         if self.rec_id != None:
             data["record_id"] = self.rec_id 
