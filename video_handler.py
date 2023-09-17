@@ -303,7 +303,7 @@ class VideoHandle:
                 anch = Image.open(chain.frame_paths[0])
                 img = Image.open(frame_path)
 
-                total_score += percept_score(anch, img)
+                total_score += wlet_score(anch, img)
 
             total_score /= len(chain.frame_paths)-1
 
