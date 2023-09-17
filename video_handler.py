@@ -298,15 +298,12 @@ class VideoHandle:
         for anchor, chain in enumerate(frames):
             total_score: float = 0.
 
-            try:
-                for idx, frame_path in enumerate(chain.frame_paths):
-                    if idx == 0: continue
-                    anch = Image.open(chain.frame_paths[0])
-                    img = Image.open(frame_path)
+            for idx, frame_path in enumerate(chain.frame_paths):
+                if idx == 0: continue
+                anch = Image.open(chain.frame_paths[0])
+                img = Image.open(frame_path)
 
-                    total_score += percept_score(anch, img)
-            except:
-                continue
+                total_score += percept_score(anch, img)
 
             total_score /= len(chain.frame_paths)-1
 
