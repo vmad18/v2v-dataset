@@ -10,6 +10,13 @@ import json
 
 from utils.image_sim import percept_score, wlet_score
 
+
+class CurrPoint(object):
+
+    def __init__(self) -> None:
+        self.cntr:int = 0
+
+
 class Frame:
     
     def __init__(self, key_frame: bool, time_stamp: float, frame_id: int) -> None:
@@ -252,15 +259,18 @@ class VideoHandle:
     '''
     Runs bash cmd
     '''
-    def run_cmd(self, cmd: str):
+    def run_cmd(self, cmd: str, count: CurrPoint):
         subprocess.check_output(cmd.split())
         print("done")
+        count.cntr += 1
 
 
     '''
     Saves video anchor frame chains (with custom names) as file
     '''
     def save_frames(self, frames: List[FrameChain]) -> None:
+        
+        frame_count = CurrPoint()
 
         runners = []
 
@@ -281,7 +291,7 @@ class VideoHandle:
                 file_paths.append(file_name)
                 base = f"/home/vivan/ffmpeg/ffmpeg -i {self.video_path}video.mp4 -vf select=eq(n\,{frame.frame_num}) -vsync 0 {file_name}"
 
-                t = Thread(target=self.run_cmd, args=(base,))
+                t = Thread(target=self.run_cmd, args=(base,frame_count,))
                 runners.append(t)
 
                 t_idx += 1
@@ -297,7 +307,7 @@ class VideoHandle:
         print("THREADS DONE")
         for anchor, chain in enumerate(frames):
             total_score: float = 0.
-            
+
             try:
                 for idx, frame_path in enumerate(chain.frame_paths):
                     if idx == 0: continue
@@ -323,7 +333,7 @@ class VideoHandle:
         if self.labels != None:
             data["labels"] = self.labels 
 
-        data["selected_cnt"] = t_idx
+        data["selected_cnt"] = frame_count.cntr
 
         self.contents[self.video_id] = data
 
