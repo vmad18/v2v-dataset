@@ -271,7 +271,7 @@ class VideoHandle:
     Runs bash cmd
     '''
 
-    def run_cmd(self, cmd: str, count: CurrPoint, f_name: str):
+    def run_cmd(self, cmd: str, f_name: str, count: CurrPoint):
         subprocess.check_output(cmd.split())
         print("done")
         if os.path.isfile(f_name):
@@ -304,7 +304,7 @@ class VideoHandle:
                 file_paths.append(file_name)
                 base = f"/home/vivan/ffmpeg/ffmpeg -i {self.video_path}video.mp4 -vf select=eq(n\,{frame.frame_num}) -vsync 0 {file_name}"
 
-                t = Thread(target=self.run_cmd, args=(base, frame_count, file_name,))
+                t = Thread(target=self.run_cmd, args=(base, file_name, frame_count,))
                 runners.append(t)
 
                 t_idx += 1
