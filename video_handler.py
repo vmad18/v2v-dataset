@@ -323,7 +323,7 @@ class VideoHandle:
         if self.labels != None:
             data["record_id"] = self.labels 
 
-        data["frame_cnt"] = t_idx+1
+        data["selected_cnt"] = t_idx
         data["labels"] = self.labels
 
         self.contents[self.video_id] = data
