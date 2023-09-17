@@ -5,9 +5,10 @@ from math import floor, ceil
 from typing import Dict, Tuple, List
 from threading import Thread
 import cv2 as cv
+from PIL import Image
 import json
 
-from utils.image_sim import sim_score
+from utils.image_sim import percept_score, wlet_score
 
 class Frame:
     
@@ -298,10 +299,10 @@ class VideoHandle:
             total_score: float = 0.
             for idx, frame_path in enumerate(chain.frame_paths):
                 if idx == 0: continue
-                anch = cv.imread(chain.frame_paths[0], 0)
-                img = cv.imread(frame_path, 0)
+                anch = Image.open(chain.frame_paths)
+                img = Image.open(frame_path)
 
-                total_score += sim_score(anch, img)
+                total_score += wlet_score(anch, img)
 
             total_score /= len(chain.frame_paths)-1
 
