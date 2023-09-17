@@ -33,7 +33,7 @@ class FrameChain:
 
         self.offsets = [abs(self.frames[i].time_stamp - self.anchor.time_stamp) for i in range(1, len(self.frames))]
 
-        self.frame_paths: List[str]
+        self.frame_paths: List[str] = None
 
     def add_file_names(self, file_names: List[str]) -> None:
         self.frame_paths = file_names
