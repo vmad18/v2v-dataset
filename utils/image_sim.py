@@ -30,7 +30,6 @@ def percept_score(im1, im2) -> float:
 
 
 def main() -> None:
-
     path = ""
 
     total_score: float = 0.
@@ -41,16 +40,16 @@ def main() -> None:
     for anchor, frame_path in enumerate(files.keys()):
         if anchor % 6 == 0:
             if anchor != 0: print(total_score)
-            anch = Image.open(path+files[anchor])
+            anch = Image.open(path + files[anchor])
             total_score = 0
             continue
-        
+
         frame_path = files[anchor]
 
-        img = Image.open(path+frame_path)
+        img = Image.open(path + frame_path)
         score = wlet_score(anch, img)
         print(score)
-        total_score += score/(6-1)
+        total_score += score / (6 - 1)
         # print("MSE: " + str(mse(img, anch)))
 
     print(total_score)

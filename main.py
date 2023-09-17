@@ -15,6 +15,7 @@ parser.add_argument("--read_file", default=0, help="t/true/1 read from saved vid
 
 accepts = ('1', 't', "true")
 
+
 def process_videos(args) -> None:
     base_yt = "https://www.youtube.com/watch?v="
 
@@ -26,15 +27,16 @@ def process_videos(args) -> None:
 
     gen = np.random.default_rng(np.random.randint(100, 2000))
     splices = gen.integers(low=0, high=len(video_lines), size=args.num)
-    
+
     print(f"Reading videos:\n {video_lines[splices]}")
 
     for video in video_lines[splices]:
         yt_id, rec_id, label_id = video.split()
         yt_id = yt_id.replace('\"', "")
-        
+
         try:
-            vh = VideoHandle(url=(base_yt+yt_id).strip('\"'), video_id=yt_id, record_id=rec_id, labels=label_id, annot_path="annotation.json")
+            vh = VideoHandle(url=(base_yt + yt_id).strip('\"'), video_id=yt_id, record_id=rec_id, labels=label_id,
+                             annot_path="annotation.json")
             vh.run()
         except Exception as e:
             print(e)
@@ -42,11 +44,10 @@ def process_videos(args) -> None:
 
 
 def main(records_path: str = "records/", to_file: str = "video_records.txt") -> None:
-    
     args = parser.parse_args()
 
     process = ProcessRecords(records_path, to_file)
-    
+
     if args.video in accepts:
         print("Parsing video urls")
         print()
@@ -64,12 +65,11 @@ if __name__ == "__main__":
     main()
 
     # arr = np.arange(0, 2000)
-    
+
     # rng = np.random.default_rng(np.random.randint(100, 2000))
     # rints = rng.integers(low=0, high=len(arr), size=100)
-    
-    # print(arr[rints])
 
+    # print(arr[rints])
 
 '''
 import os
