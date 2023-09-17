@@ -299,7 +299,7 @@ class VideoHandle:
             total_score: float = 0.
             for idx, frame_path in enumerate(chain.frame_paths):
                 if idx == 0: continue
-                anch = Image.open(chain.frame_paths)
+                anch = Image.open(chain.frame_paths[0])
                 img = Image.open(frame_path)
 
                 total_score += wlet_score(anch, img)
