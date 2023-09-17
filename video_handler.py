@@ -294,7 +294,7 @@ class VideoHandle:
         for runner in runners:
             runner.join()
 
-
+        print("THREADS DONE")
         for anchor, chain in enumerate(frames):
             total_score: float = 0.
             for idx, frame_path in enumerate(chain.frame_paths):
@@ -307,7 +307,8 @@ class VideoHandle:
             total_score /= len(chain.frame_paths)-1
 
             data[f"anchor{anchor}_wscore"] = total_score 
-
+        
+        print("WAVELET DONE")
 
         if self.rec_id != None:
             data["record_id"] = self.rec_id 
