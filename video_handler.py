@@ -8,6 +8,7 @@ import cv2 as cv
 from PIL import Image
 import json
 
+from yt_dlp import YoutubeDL
 from utils.image_sim import percept_score, wlet_score
 
 
@@ -100,10 +101,18 @@ class VideoHandle:
     def download_video(self) -> None:
         # do we want highest resolution of video?
         # how do we want to select the key frames?
-        yt = YouTube(self.url)
-        yt = yt.streams.get_highest_resolution().download(self.video_path)
+
+        dl_ops = {
+        'outtmpl': f'{self.video_path}video.mp4'
+        }
+
+        with YoutubeDL(dl_ops) as ydl:
+            ydl.download(self.url)
+
+        # yt = YouTube(self.url)
+        # yt = yt.streams.get_highest_resolution().download(self.video_path)
         
-        os.rename(yt, f"{self.video_path}video.mp4")
+        # os.rename(yt, f"{self.video_path}video.mp4")
 
 
     def _get_attr(self, name, v)-> Tuple[bool, str]:
@@ -415,8 +424,10 @@ if __name__ == "__main__":
 
 
 
+    # url = "https://www.youtube.com/watch?v=cy8r7WSuT1I"
+    # vh = VideoHandle(url=url, video_id="cy8r7WSuT1I", annot_path="annotation.json")
 
-
+    # vh.download_video()
 
     url = "https://www.youtube.com/watch?v=cy8r7WSuT1I"
     id = url.split("=")[-1]
