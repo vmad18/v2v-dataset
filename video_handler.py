@@ -318,10 +318,9 @@ class VideoHandle:
         data["frame_rate"] = floor(1./self.dur_sec)
 
         if self.labels != None:
-            data["record_id"] = self.labels 
+            data["labels"] = self.labels 
 
         data["selected_cnt"] = t_idx
-        data["labels"] = self.labels
 
         self.contents[self.video_id] = data
 
