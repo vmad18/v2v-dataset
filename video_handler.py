@@ -398,7 +398,7 @@ class VideoHandle:
                 print()
                 print()
 
-        os.rename(f"{self.video_path}video.mp4", f"{self.video_path}{self.rec_id}.mp4")
+        os.rename(f"{self.video_path}video.mp4", f"parsed_videos/{self.rec_id}.mp4")
 
 #  store metadata in json file
 #  save file as offset from anchor
