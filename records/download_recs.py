@@ -23,7 +23,7 @@ def main() -> None:
     for f in file_names[:args.num]:
         print(f"Downloading {f}...")
 
-        cmd = f"wget {url+f}"
+        cmd = f"wget {url+f} -P records/"
         subprocess.run(cmd.split()) 
 
 if __name__ == "__main__":
