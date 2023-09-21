@@ -24,7 +24,7 @@ def process_videos(args) -> None:
 
     videos = open('video_records.txt', 'r')
     video_lines = np.array(videos.readlines())
-
+    print(f"Number of videos to sample from: {len(video_lines)}")
     gen = np.random.default_rng(np.random.randint(100, 2000))
     splices = gen.integers(low=0, high=len(video_lines), size=args.num)
 
