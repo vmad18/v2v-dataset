@@ -29,7 +29,7 @@ def process_videos(args) -> None:
     splices = gen.integers(low=0, high=len(video_lines), size=args.num)
 
     print(f"Reading videos:\n {video_lines[splices]}")
-
+    sleep(20)
     for video in video_lines[splices]:
         yt_id, rec_id, label_id = video.split()
         yt_id = yt_id.replace('\"', "")
