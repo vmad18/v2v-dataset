@@ -49,18 +49,19 @@ def process_videos(args) -> None:
 def main(records_path: str = "records/", to_file: str = "video_records.txt") -> None:
     args = parser.parse_args()
 
-    process = ProcessRecords(records_path, to_file)
-
+    
     if args.video in accepts:
         print("Parsing video urls")
         print()
         print()
         if not (args.read_file in accepts):
+            process = ProcessRecords(records_path, to_file)
             process.save_videos()
         print("Parsing videos...")
         process_videos(args)
 
     if args.content in accepts:
+        process = ProcessRecords(records_path, to_file)
         process.save_contents_to_file("contents.txt")
 
 
