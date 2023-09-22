@@ -100,6 +100,9 @@ class VideoHandle:
         # do we want highest resolution of video?
         # how do we want to select the key frames?
 
+        if os.path.isfile(f'{self.video_path}video.mp4'):
+            os.remove(f'{self.video_path}video.mp4')
+
         dl_ops = {
             'outtmpl': f'{self.video_path}video.mp4'
         }
