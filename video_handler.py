@@ -334,10 +334,10 @@ class VideoHandle:
             try:
                 for idx, frame_path in enumerate(chain.frame_paths):
                     if idx == 0: continue
-                    anch = Image.open(chain.frame_paths[0])
-                    img = Image.open(frame_path)
+                    prev = Image.open(chain.frame_paths[idx-1])
+                    curr = Image.open(frame_path)
 
-                    total_score += wlet_score(anch, img)
+                    total_score += wlet_score(prev, curr)
             except:
                 continue
 
