@@ -18,6 +18,6 @@ python3 main.py --contents (t/true/1/nothing | examine contents of tf records) -
 # requirements 
 
 * tensorflow (any)
-* pytube (any)
+* YouTubeDL (yt_dlp)
 * ffprobe
 * ffmpeg
